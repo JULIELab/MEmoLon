@@ -1,0 +1,10 @@
+*.ipynb_checkpoints*
+/env.yaml
+
+*.DS_Store
+*/__pycache__
+.idea*
+*.jpg
+*.pyc
+*.out
+*/.ipynb_checkpoints
