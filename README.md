@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3779901.svg)](https://doi.org/10.5281/zenodo.3779901)
 
 
-This is the main repository for our ACL 2020 paper [Learning and Evaluating Emotion Lexicons for 91 Languages](https://arxiv.org/abs/2005.05672).
+This is the main repository for our ACL 2020 paper [Learning and Evaluating Emotion Lexicons for 91 Languages](https://www.aclweb.org/anthology/2020.acl-main.112/).
 
 ## Overview
 Data and code for this research project are distributed across different places. This github repository serves as landing page linking to other relevant sites. It also contains the code necessary to re-run our experiments and analyses.  Releases of this repository are archived as Zenodo records under [DOI 10.5281/zenodo.3779901](https://doi.org/10.5281/zenodo.3779901). While this repository contains our codebase and experimental results, the generated lexicon is archived in an second Zenodo record under [DOI 10.5281/zenodo.3756606](https://doi.org/10.5281/zenodo.3756606) due to its size.
@@ -15,7 +15,7 @@ Data and code for this research project are distributed across different places.
 
 * [arXiv version of the paper](https://arxiv.org/abs/2005.05672) 
 
-* ACL Anthology version of the paper (TBA)
+* [ACL Anthology version of the paper](https://www.aclweb.org/anthology/2020.acl-main.112/)
 
   
 
@@ -135,14 +135,20 @@ Running the gold evaluation and related analyses requires you to manually collec
 If you find this work useful, please cite our paper:
 
 ```bib
-@misc{buechel2020learning,
-    title={Learning and Evaluating Emotion Lexicons for 91 Languages},
-    author={Sven Buechel and Susanna Rücker and Udo Hahn},
-    year={2020},
-    eprint={2005.05672},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    note={To appear in ACL 2020}
+@inproceedings{buechel-etal-2020-learning-evaluating,
+    title = "Learning and Evaluating Emotion Lexicons for 91 Languages",
+    author = {Buechel, Sven  and
+      R{\"u}cker, Susanna  and
+      Hahn, Udo},
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.112",
+    doi = "10.18653/v1/2020.acl-main.112",
+    pages = "1202--1217",
+    abstract = "Emotion lexicons describe the affective meaning of words and thus constitute a centerpiece for advanced sentiment and emotion analysis. Yet, manually curated lexicons are only available for a handful of languages, leaving most languages of the world without such a precious resource for downstream applications. Even worse, their coverage is often limited both in terms of the lexical units they contain and the emotional variables they feature. In order to break this bottleneck, we here introduce a methodology for creating almost arbitrarily large emotion lexicons for any target language. Our approach requires nothing but a source language emotion lexicon, a bilingual word translation model, and a target language embedding model. Fulfilling these requirements for 91 languages, we are able to generate representationally rich high-coverage lexicons comprising eight emotional variables with more than 100k lexical entries each. We evaluated the automatically generated lexicons against human judgment from 26 datasets, spanning 12 typologically diverse languages, and found that our approach produces results in line with state-of-the-art monolingual approaches to lexicon creation and even surpasses human reliability for some languages and variables. Code and data are available at https://github.com/JULIELab/MEmoLon archived under DOI 10.5281/zenodo.3779901.",
 }
 ```
 
@@ -152,5 +158,5 @@ If you find this work useful, please cite our paper:
 
 ## Contact
 
-Please get in touch via svenericbuechel@gmail.com. 
+Please get in touch via sven dot buechel at uni-jena dot de. 
 
